@@ -107,7 +107,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         SizedBox(
                           height: 10.0,
                         ),
-                        RaisedButton(onPressed: (){
+                        ElevatedButton(onPressed: (){
                           Navigator.push(context,MaterialPageRoute(builder: (context) {return  const MyHomePage(title: 'project7',);},),);
                         },
                           color: Colors.blue,

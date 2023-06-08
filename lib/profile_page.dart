@@ -57,10 +57,10 @@ class _ProfilePageState extends State<ProfilePage> {
                     const Divider(
                       height: 10.0,
                     ),
-                    Padding(padding: const EdgeInsets.all(16.0),
+                    const Padding(padding: EdgeInsets.all(16.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
+                        children:[
                           Text('Studies at Brindaban Governoment Collage'),
                           SizedBox(height: 5.0,),
                           Text('Went to Habiganj High School'),
@@ -74,7 +74,6 @@ class _ProfilePageState extends State<ProfilePage> {
                           Text('Birthday: 12/02/1997'),
                           SizedBox(height: 5.0,),
                           Text('Gender: Male')
-
                         ],
                       ),
                     ),
